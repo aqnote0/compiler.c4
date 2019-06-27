@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "c4",
+            "name": "c4.app",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/bin/c4.app",
-            "args": ["hello.c"],
+            "args": ["case02.c"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "c4",
+            "preLaunchTask": "c4.app",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]

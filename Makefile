@@ -1,11 +1,13 @@
 all: link
 
 link: build
-	@mkdir bin >/dev/null
+	@rm -rf bin && \
+	mkdir bin 1>/dev/zero 2>&1
 	gcc -o bin/c4.app build/c4.o
 
 build:
-	@mkdir build > /dev/null
+	@ rm -rf build && \
+	mkdir build 1>/dev/zero 2>&1
 	gcc -o build/c4.o c4.c -O0 -g -D_DEBUG -Wall -c
 
 clean:
