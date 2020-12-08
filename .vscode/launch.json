@@ -8,8 +8,10 @@
             "name": "c4.app",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/c4.app",
-            "args": ["case02.c"],
+            "program": "${workspaceFolder}/c4.app",
+            "args": [
+                "case02.c"
+            ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

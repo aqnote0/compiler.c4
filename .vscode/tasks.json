@@ -5,10 +5,12 @@
             "label": "c4.app",
             "type": "shell",
             "command": "make",
+            "args": [
+                "c4.app"
+            ],
             "options": {
                 "cwd": ".",
-                "env": {
-                },
+                "env": {},
                 "shell": {}
             },
             "group": {
